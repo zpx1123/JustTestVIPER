@@ -35,7 +35,7 @@
 
 -(void)test{
     
-    //测试
+    //测试123123
 }
 //回调或者block出来的事件   好现在要发给present要做什么事情了
 -(void)viewWillAppear:(BOOL)animated{

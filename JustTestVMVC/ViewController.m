@@ -33,7 +33,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 //回调或者block出来的事件   好现在要发给present要做什么事情了
-
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    
+    [self.present updateView];
+}
 -(void)addConut{
     
     [self.present increment];

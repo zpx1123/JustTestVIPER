@@ -37,7 +37,7 @@
     
     [super viewWillAppear:animated];
     
-    [self.present updateView];
+    [self.present updateView];//更新view
 }
 -(void)addConut{
     

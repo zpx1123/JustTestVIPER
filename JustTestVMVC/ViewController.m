@@ -11,7 +11,7 @@
 
 @interface ViewController ()<showViewDelegate>{
     
-    ShowView * showview;
+    ShowView * showview;//要展示的view
     
 }
 
